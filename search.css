@@ -1,0 +1,83 @@
+ul,
+li,
+p,
+form,
+div,
+input,
+b,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+b {
+	color: #3FC3EE;
+}
+
+h2 {
+	padding-left: 150px;
+	line-height: 100px;
+}
+
+button {
+	box-shadow: none;
+	border: none;
+	background: rgb(51, 133, 255);
+	color: #fff;
+	height: 30px;
+	width: 80px;
+	border-radius: 3px;
+}
+
+button:active {
+	opacity: 0.7;
+}
+
+p {
+	text-align: left;
+	padding-left: 3px;
+}
+
+input {
+	margin-bottom: 0px;
+	border: 1px solid rgb(182, 182, 182);
+	height: 30px;
+	width: 300px;
+	line-height: 30px;
+	padding-left: 3px;
+	margin: 5px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+ul {
+	width: 300px;
+	border: 1px solid rgb(182, 182, 182);
+	border-top: none;
+	border-bottom: none;
+	margin-left: 5px;
+}
+
+ul li {
+	list-style: none;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 3px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+ul li:last-of-type {
+	border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+ul li:hover {
+	background: #E2E2E2;
+	cursor: pointer;
+}
+
+.wrap {
+	margin: 100px auto;
+	width: 600px;
+}
