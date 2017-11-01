@@ -47,7 +47,7 @@
     function searchBD(){
     	let bd=$('#bdSearch').val();
 		b.ajax({
-			url:'http://suggestion.baidu.com/su',
+			url:'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su',
 			dataType:'jsonp',
 			data:{wd:bd},
 			jsonp:'cb',
